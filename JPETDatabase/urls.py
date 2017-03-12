@@ -25,5 +25,5 @@ urlpatterns = [
     url(r'^$', views.index, name='index'),
     url(r'^runs/', views.runs, name='runs'),
     url(r'^setups/', views.setups, name='setups'),
-    url(r'^faq/', views.faq, name='faq')
+    url(r'^faq/', views.faq, name='faq'),
 ]
